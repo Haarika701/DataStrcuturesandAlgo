@@ -1,3 +1,5 @@
+Text- book bubble sort algo in Javascript
+
 function bubbleSort(inArray){
   
   let len = inArray.length;

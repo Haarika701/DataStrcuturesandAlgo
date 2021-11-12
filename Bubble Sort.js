@@ -1,4 +1,4 @@
-Text- book bubble sort algo in Javascript
+// Text- book bubble sort algo in Javascript
 
 function bubbleSort(inArray){
   

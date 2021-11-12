@@ -1,9 +1,9 @@
-Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
-You must write an algorithm with O(log n) runtime complexity.
+// Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+// You must write an algorithm with O(log n) runtime complexity.
 
-Level : Easy,Source: Leetcode
+// Level : Easy,Source: Leetcode
 
-Soution1
+// Soution1
 var searchInsert = function(nums, target) {
     let left = 0;
     let right = nums.length - 1;

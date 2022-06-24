@@ -3,18 +3,17 @@
  * @param {number} target
  * @return {number[]}
  */
-var twoSum = function(nums, target) {
-   const map = new Map();
-    for(let i = 0 ; i < nums.length; i ++){
-        const num = nums[i];
-        const diff = target - num;
-        if(map.has(diff)){
-            return [i,map.get(diff)]
-        }else{
-            map.set(num,i)
+var twoSum = function(numbers, target) {
+      let m = new Map();
+
+    for(let i= 0 ;i< numbers.length; i++){
+        if(m.has(target-numbers[i])) {
+            return [m.get(target-numbers[i]), i];
         }
+        m.set(numbers[i], i);
+
     }
-    return [];
+    
 };
 
 
